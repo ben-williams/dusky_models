@@ -4,7 +4,7 @@
 %
 \documentclass[
 ]{book}
-\title{GOA Dusky Rockfish}
+\title{GOA Dusky \& Northern Rockfish Model Evaluations}
 \author{Ben Williams}
 \date{\texttt{2022}}
 
@@ -40,7 +40,7 @@
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
 \hypersetup{
-  pdftitle={GOA Dusky Rockfish},
+  pdftitle={GOA Dusky \& Northern Rockfish Model Evaluations},
   pdfauthor={Ben Williams},
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
@@ -89,12 +89,6 @@
 \hypertarget{examinations}{%
 \chapter{Examinations}\label{examinations}}
 
-\hypertarget{vast}{%
-\section{VAST}\label{vast}}
-
-\hypertarget{length-comps}{%
-\section{Length comps}\label{length-comps}}
-
 \hypertarget{inputs}{%
 \chapter{Inputs}\label{inputs}}
 
@@ -103,6 +97,9 @@
 
 \hypertarget{dusky-rockfish}{%
 \section{Dusky rockfish}\label{dusky-rockfish}}
+
+Generally speaking exploring different VAST models.
+The model variants are listed in the legends where db = design-based and the VAST models are listed by their error structure and the number of knots i.e., gamma\_750 = a Gamma error structure with 750 knots.
 
 \label{fig:unnamed-chunk-3}Design-based and VAST model estimates of survey biomass inputs. Shaded areas are 95\% confidence intervals.
 
@@ -114,6 +111,10 @@
 
 \hypertarget{northern-rockfish}{%
 \section{Northern rockfish}\label{northern-rockfish}}
+
+Examinations of different weightings for the survey index of abundance.
+Survey weight is in percent.
+The srv\_wt\_100\_var is a full weight VAST survey with the variance doubled.
 
 \label{fig:unnamed-chunk-7}Survey biomass estimates from differing survey index model weightings. db= design-based, srv = VAST.
 
